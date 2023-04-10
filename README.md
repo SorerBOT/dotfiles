@@ -1,2 +1,3 @@
 # dotfiles
-![img]("https://i.imgur.com/L6e3ze9.png")
+![Alt text](https://imgur.com/L6e3ze9)
+
