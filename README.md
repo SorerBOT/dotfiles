@@ -1,3 +1,3 @@
 # dotfiles
-![Alt text](https://imgur.com/L6e3ze9)
+![Alt text](https://i.imgur.com/L6e3ze9.png)
 
