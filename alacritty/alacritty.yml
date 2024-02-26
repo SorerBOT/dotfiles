@@ -3,11 +3,11 @@
 
 colors:
   primary:
-    background: "#2e3440"
+    background: "#101018"
     foreground: "#d8dee9"
     dim_foreground: "#a5abb6"
   cursor:
-    text: "#2e3440"
+    text: "#b3b7d4"
     cursor: "#d8dee9"
   vi_mode_cursor:
     text: "#2e3440"
