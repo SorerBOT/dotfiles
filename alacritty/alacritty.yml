@@ -1,5 +1,5 @@
-# Font co# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
-# This source code is licensed under the MIT license found in the license file.
+ Font co# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ This source code is licensed under the MIT license found in the license file.
 
 colors:
   primary:
@@ -50,11 +50,11 @@ colors:
     cyan: "#6d96a5"
     white: "#aeb3bb"
 #font configuration
-font:
+#font:
   # Normal (roman) font face
-  normal:
-    family: BigBlue_Terminal_437TT Nerd Font
-    style: Regular
+#  normal:
+#    family: BigBlue_Terminal_437TT Nerd Font
+#    style: Regular
     # Default:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
