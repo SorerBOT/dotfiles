@@ -1,3 +1,9 @@
+[terminal]
+[general]
+live_config_reload = true
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login"]
 [colors.bright]
 black = "#4c566a"
 blue = "#81a1c1"
@@ -53,6 +59,31 @@ text = "CellForeground"
 cursor = "#d8dee9"
 text = "#2e3440"
 
+[font]
+size = 13.0
+
 [font.normal]
-family = "BigBlue_Terminal_437TT Nerd Font"
+family = "GeistMono Nerd Font Mono"
 style = "Regular"
+
+[font.bold]
+family = "GeistMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "GeistMono Nerd Font Mono"
+style = "Italic"
+
+[keyboard]
+bindings = [
+    { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
+    { key = "Minus", mods = "Control", action = "DecreaseFontSize" }
+]
+
+[[hints.enabled]]
+regex = "[^: ]+:\\d+"
+command = { program = "sh", args = [
+    "-c", 
+    "/opt/homebrew/bin/tmux send-keys \"/opt/homebrew/bin/nvim $0\" Enter"
+] }
+mouse = { enabled = true, mods = "Command" }
